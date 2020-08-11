@@ -5,6 +5,7 @@ install:
   - npm ci
 script:
   - npm run build
+  - npm run generate
   - echo "sinix.dev" > dist/CNAME
 deploy:
   provider: pages
