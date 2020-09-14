@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="65.710617mm"
+   height="26.315666mm"
+   viewBox="0 0 65.710618 26.315666"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="logo-light.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.1252682"
+     inkscape:cx="125.45311"
+     inkscape:cy="42.659158"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1364"
+     inkscape:window-height="730"
+     inkscape:window-x="0"
+     inkscape:window-y="37"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.3896242,8.6645212)">
+    <text
+       xml:space="preserve"
+       style="font-size:22.5778px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:Roboto;letter-spacing:1.5875px;word-spacing:0px;stroke-width:0.264583"
+       x="2.0056126"
+       y="12.203481"
+       id="text835"><tspan
+         sodipodi:role="line"
+         id="tspan833"
+         x="2.0056126"
+         y="12.203481"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.5778px;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';stroke-width:0.264583">S<tspan
+   style="font-size:22.5778px;fill:#dc143c;fill-opacity:1"
+   id="tspan837">I</tspan>NIX</tspan></text>
+  </g>
+</svg>
