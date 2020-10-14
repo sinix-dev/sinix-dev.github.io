@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full w-full flex justify-center items-center flex-col">
+  <div class="wrapper w-full flex justify-center items-center flex-col">
     <h1 class="text-6xl font-bold tracking-widest py-4">
       <img src="../static/images/logo-light.png" width="200px">
     </h1>
@@ -36,6 +36,9 @@ export default {
 </script>
 
 <style scoped>
+.wrapper {
+  padding-top: 150px;
+}
 .email {
   width: 350px;
 }
