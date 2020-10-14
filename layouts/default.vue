@@ -7,6 +7,7 @@
 <style>
 html {
   font-family: 'Roboto', sans-serif;
+  background: url("../static/images/background.png");
 }
 
 body, html, #__nuxt, #__layout {
