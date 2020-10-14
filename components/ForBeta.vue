@@ -8,5 +8,6 @@
 button {
   color: white;
   background: #DC143C;
+  border: 1px solid #DC143C;
 }
 </style>

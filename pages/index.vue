@@ -5,6 +5,15 @@
     </h1>
     <h5 class="text-2xl tracking-wide">TWO FEET LONG GAMING PLATFORM</h5>
     <div style="height: 20px"></div>
-    <ForBeta />
+    <div>
+      <input class="p-2 border email" placeholder="Email Address">
+      <ForBeta />
+    </div>
   </div>
 </template>
+
+<style scoped>
+.email {
+  width: 350px;
+}
+</style>
