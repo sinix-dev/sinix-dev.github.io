@@ -5,6 +5,14 @@
   </div>
 </template>
 
+<script>
+export default {
+  head: {
+    title: 'Sinix - Two Feet Long Gaming Platform'
+  }
+}
+</script>
+
 <style>
 html {
   font-family: 'Roboto', sans-serif;
