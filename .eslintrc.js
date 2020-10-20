@@ -13,6 +13,31 @@ module.exports = {
   ],
   plugins: [
   ],
-  // add your custom rules here
-  rules: {}
+  rules: {
+      'no-undef': 'off',
+      'semi': ['error', 'never'],
+      'array-bracket-spacing': [
+        'error',
+        'never'
+      ],
+      'no-trailing-spaces': 'error',
+      'comma-spacing': [
+        'error',
+        {
+          'before': false,
+          'after': true
+        }
+      ],
+      'indent': [
+        'error',
+        2
+      ],
+      'key-spacing': [
+        'error',
+        {
+          'beforeColon': false,
+          'afterColon': true
+        }
+      ]
+  }
 }
