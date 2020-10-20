@@ -14,30 +14,33 @@ module.exports = {
   plugins: [
   ],
   rules: {
-    'no-undef': 'off',
-    semi: ['error', 'never'],
-    'array-bracket-spacing': [
-      'error',
-      'never'
+    "no-undef": "off",
+    "semi": ["error", "never"],
+    "array-bracket-spacing": [
+      "error",
+      "never"
     ],
-    'no-trailing-spaces': 'error',
-    'comma-spacing': [
-      'error',
+    "no-trailing-spaces": "error",
+    "comma-spacing": [
+      "error",
       {
-        before: false,
-        after: true
+        "before": false,
+        "after": true
       }
     ],
-    indent: [
-      'error',
+    "indent": [
+      "error",
       2
     ],
-    'key-spacing': [
-      'error',
+    "key-spacing": [
+      "error",
       {
-        beforeColon: false,
-        afterColon: true
+        "beforeColon": false,
+        "afterColon": true
       }
-    ]
+    ],
+    "quotes": ["error", "double"],
+    "space-before-function-paren": ["error", "never"],
+    "space-before-blocks": ["error", "never"]
   }
 }
