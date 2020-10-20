@@ -5,17 +5,17 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: "babel-eslint"
   },
   extends: [
-    '@nuxtjs',
-    'plugin:nuxt/recommended'
+    "@nuxtjs",
+    "plugin:nuxt/recommended"
   ],
   plugins: [
   ],
   rules: {
     "no-undef": "off",
-    "semi": ["error", "never"],
+    semi: ["error", "never"],
     "array-bracket-spacing": [
       "error",
       "never"
@@ -24,22 +24,22 @@ module.exports = {
     "comma-spacing": [
       "error",
       {
-        "before": false,
-        "after": true
+        before: false,
+        after: true
       }
     ],
-    "indent": [
+    indent: [
       "error",
       2
     ],
     "key-spacing": [
       "error",
       {
-        "beforeColon": false,
-        "afterColon": true
+        beforeColon: false,
+        afterColon: true
       }
     ],
-    "quotes": ["error", "double"],
+    quotes: ["error", "double"],
     "space-before-function-paren": ["error", "never"],
     "space-before-blocks": ["error", "never"]
   }
