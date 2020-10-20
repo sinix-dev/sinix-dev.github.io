@@ -5,14 +5,42 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: "babel-eslint"
   },
   extends: [
-    '@nuxtjs',
-    'plugin:nuxt/recommended'
+    "@nuxtjs",
+    "plugin:nuxt/recommended"
   ],
   plugins: [
   ],
-  // add your custom rules here
-  rules: {}
+  rules: {
+    "no-undef": "off",
+    semi: ["error", "never"],
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ],
+    "no-trailing-spaces": "error",
+    "comma-spacing": [
+      "error",
+      {
+        before: false,
+        after: true
+      }
+    ],
+    indent: [
+      "error",
+      2
+    ],
+    "key-spacing": [
+      "error",
+      {
+        beforeColon: false,
+        afterColon: true
+      }
+    ],
+    quotes: ["error", "double"],
+    "space-before-function-paren": ["error", "never"],
+    "space-before-blocks": ["error", "never"]
+  }
 }
