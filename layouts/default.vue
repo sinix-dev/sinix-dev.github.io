@@ -8,7 +8,7 @@
 <script>
 export default {
   head: {
-    title: 'Sinix - Two Feet Long Gaming Platform'
+    title: "Sinix - Two Feet Long Gaming Platform"
   }
 }
 </script>
