@@ -1,9 +1,9 @@
 <template>
   <div class="wrapper w-full h-full flex justify-center items-center flex-col">
-    <h1 class="text-6xl font-bold tracking-widest py-4">
-      <img src="../static/images/logo-light.png" width="200px">
+    <h1 class="py-4">
+      <img src="../static/images/logo-light.png" class="sm:w-56 w-40">
     </h1>
-    <h5 class="text-2xl tracking-wide text-center">
+    <h5 class="sm:text-2xl text-xl tracking-wide text-center">
       TWO FEET LONG GAMING PLATFORM
     </h5>
     <div style="height: 20px" />
