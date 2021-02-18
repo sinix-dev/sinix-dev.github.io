@@ -1,0 +1,236 @@
+/* <!-- footer strat --> */
+ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .footer-section {
+  background: #151414;
+  position: relative;
+  }
+  .footer-cta {
+  border-bottom: 1px solid #373636;
+  }
+  .single-cta i {
+  color:  #DC143C;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+  }
+  .cta-text {
+  padding-left: 15px;
+  display: inline-block;
+  }
+  .cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  }
+  .cta-text span {
+  color: #757575;
+  font-size: 15px;
+  }
+  .footer-content {
+  position: relative;
+  z-index: 2;
+  }
+  .footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+  }
+  /* .footer-logo {
+  margin-bottom: 30px;
+  } */
+  /* .footer-logo img {
+    max-width: 200px;
+  } */
+  .footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+  }
+  .footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  }
+  .footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+  }
+  .footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  }
+  .facebook-bg{
+  background: #3B5998;
+  }
+  .twitter-bg{
+  background: #55ACEE;
+  }
+  .google-bg{
+  background: #DD4B39;
+  }
+  .footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  }
+  .footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background:  #DC143C;
+  }
+  .footer-widget ul li {
+  display: inline-block;
+  /* float: left; */
+  width: 50%;
+  margin-bottom: 12px;
+  }
+  .footer-widget ul li a:hover{
+  color:  #DC143C;
+  }
+  .footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+  }
+  .subscribe-form {
+  position: relative;
+  overflow: hidden;
+  }
+  .subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background:  #DC143C;
+    padding: 13px 20px;
+    border: 1px solid  #DC143C;
+    top: 0;
+  }
+  .subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+  }
+  .copyright-area{
+  background: #202020;
+  padding: 25px 0;
+  }
+  .copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+  }
+  .copyright-text p a{
+  color:  #DC143C;
+  }
+  .footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+  }
+  .footer-menu li:hover a{
+  color:  #DC143C;
+  }
+  .footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+  }
+  /* <!-- footer end --> */
+  /* footer logo */
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+  .text {
+    fill: none;
+    stroke-width: 2;
+    font-size: 0.2em;
+    stroke-linejoin: round;
+    stroke-dasharray: 70 330;
+    stroke-dashoffset: 0;
+    -webkit-animation: stroke 6s infinite linear;
+    animation: stroke 6s infinite linear;
+  }
+  
+  .text:nth-child(5n + 1) {
+    stroke: #DC143C;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+  }
+  
+  .text:nth-child(5n + 2) {
+    stroke: #ffffff;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s;
+  }
+  
+  .text:nth-child(5n + 3) {
+    stroke: #DC143C;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s;
+  }
+  
+  .text:nth-child(5n + 4) {
+    stroke: #ffffff;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s;
+  }
+  
+  .text:nth-child(5n + 5) {
+    stroke: #DC143C;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s;
+  }
+  
+  @-webkit-keyframes stroke {
+    100% {
+      stroke-dashoffset: -400;
+    }
+  }
+  
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: -400;
+    }
+  }
+  .headline {
+    background: #111;
+    background-size: 0%;
+    font: 10em Open Sans, Impact;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+  } 
+  
+  .svg_main {
+    position: absolute;
+    /* background-color: red; */
+    /* padding: 10% 40%; */
+    margin: 12% 0%;
+    width: 100%;
+    /* font-size: 5em; */
+    height: 100%;
+  }
+  /* footer logo completed */
+  

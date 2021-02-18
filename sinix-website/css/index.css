@@ -1,1 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+
+
+
+.mySlides {
+  display: none;
+  height: 650px;
+  overflow: hidden;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 3s ease;
+}
+
+.active {
+  background-color: #ff0000;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Text section */
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 5%;
+}
+
+svg {
+  width: 100%;
+}
+.filled-heading {
+  text-transform: uppercase;
+  font-family: "Rowdies";
+  font-size: 4em;
+  line-height: 0.9;
+}
+
+#background path {
+  animation: pulse 5s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
+}
+#textClip text {
+  display: none;
+  /* letter-spacing: 0.1em; */
+}
+#textClip text:nth-of-type(n + 1):nth-of-type(-n + 3) {
+  display: inline;
+}
+
+@keyframes pulse {
+  0%,
+  10%,
+  90%,
+  100% {
+    transform: scale(0) rotate(33deg);
+  }
+  30%,
+  70% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+/* text section completed */
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+
 
